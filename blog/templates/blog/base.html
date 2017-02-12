@@ -1,0 +1,275 @@
+{% load staticfiles %}
+<html>
+    <head>
+        
+
+        
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to my website</title>
+
+
+<link rel="stylesheet" href="{% static 'css/reset.css '%}" type="text/css" />
+<link rel="stylesheet" href="{% static 'css/styles.css'%}" type="text/css" />
+<link href="{% static 'http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'%}" rel="stylesheet">
+
+
+
+
+<script type="text/javascript" src="{% static 'js/jquery.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/slider.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/superfish.js'%}"></script>
+
+<script type="text/javascript" src="{% static 'js/custom.js'%}"></script>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body>
+<div id="container">
+
+    <header> 
+	<div class="width">
+
+    		<h1><a href="/">kena<strong>becha</strong></a></h1>
+
+		<nav>
+	
+    			<ul class="sf-menu dropdown">
+
+			
+        			<li class="selected"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+
+            			<li>
+
+
+
+
+
+					<a href="{% url 'examples' %}"><i class="fa fa-code"></i> All Adds</a>
+            			
+
+
+
+
+
+					<ul>
+                				<li><a href="three-column.html">Three Column</a></li>
+						<li><a href="one-column.html">One Column</a></li>
+                    				<li><a href="text.html">Text page</a></li>
+                			</ul>
+
+            			</li>
+
+	     			<li><a href="#"><i class="fa fa-briefcase"></i> Services</a></li>
+            
+				<li>
+
+					<a href="#"><i class="fa fa-database"></i> Products</a>
+            				
+					<ul>
+                				<li><a href="#">Product One</a></li>
+                   				<li><a href="#">Product Two</a></li>
+                   				<li><a href="#">Product Three</a></li>
+                			</ul>
+
+            			</li>
+            
+				<li><a href="#"><i class="fa fa-phone"></i> Contact</a></li>
+       			</ul>
+
+			
+			<div class="clear"></div>
+    		</nav>
+       	</div>
+
+	<div class="clear"></div>
+
+       
+    </header>
+
+
+    <div id="intro">
+
+	<div class="width">
+      
+		<div class="intro-content">
+	
+                    <h2>The Largest Marketplace in Bangladesh  </h2>
+                    
+                                  	
+			<p><a href="#" class="button button-slider"><i class="fa fa-gbp"></i> Buy Products</a>
+							<a href="#" class="button button-reversed button-slider"><i class="fa fa-info"></i> Sell Products</a></p>
+                    
+
+            	</div>
+                
+            </div>
+            
+
+	</div>
+
+    <div id="body" class="width">
+
+
+
+		<section id="content" class="two-column with-right-sidebar">
+
+	    <article>
+				
+			
+			<h2>Introduction to Kena Becha</h2>
+			<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
+
+            <p>Should you wish to use this template unbranded you can buy a template license from our website for 8.00 GBP, this will allow you remove all branding related to our site, for more information about this see belowShould you wish to use this template unbranded you can buy a template license from our website for 8.00 GBP, this will allow you remove all branding related to our site, for more information about this see below</p>
+
+			<p> Should you wish to use this template unbranded you can buy a template license from our website for 8.00 GBP, this will allow you remove all branding related to our site, for more information about this see below.</p>	
+
+		<p>The image in the header is in the public domain, downloaded from <a href="http://unsplash.com/">UnSplash</a></p>
+            
+            
+		<a href="#" class="button">Read more</a>
+		<a href="#" class="button button-reversed">Comments</a>
+
+
+		
+		</article>
+	
+		<article class="expanded">
+
+            		<h2>Recently Added</h2>
+			<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">kena becha</a></div>
+
+				<img src="{% static 'images/rc.jpeg'%}" alt="" >
+			
+
+            <p>Purchasing a template license for 8.00 GBP (at time of writing around 12 USD) gives you the right to remove any branding including links, logos and source tags relating to ZyPOP. As well as waiving the attribution requirement, your payment will also help us provide continued support for users as well as creating new web templates. Find out more about how to buy at the licensing page on our website which can be accessed at </a></p>
+
+<h3>Todays Top Add</h3>
+	<img src="{% static 'images/3.png'%}" alt="" > <img src="{% static 'images/2.jpeg'%}" alt="" >
+<p>Morbi fermentum condimentum felis, commodo vestibulum sem mattis sed. Aliquam magna ante, mollis vitae tincidunt in, malesuada vitae turpis. Sed aliquam libero ut velit bibendum consectetur. Quisque sagittis, est in laoreet semper, enim dui consequat felis, faucibus ornare urna velit nec leo. Maecenas condimentum velit vitae est lobortis fermentum. In tristique sem vitae metus ornare luctus tempus nisl volutpat. Integer et est id nisi tempus pharetra sagittis et libero.</p>
+
+
+		<a href="#" class="button">Read more</a>
+		<a href="#" class="button button-reversed">Comments</a>
+		</article>
+        </section>
+        
+        <aside class="sidebar big-sidebar right-sidebar">
+	
+	
+            <ul>	
+               <li>
+                    <h4>Services</h4>
+                    <ul class="blocklist">
+                        <li><a class="selected" href="index.html">Mobile Phone</a></li>
+                        <li><a href="examples.html">Laptop</a>
+				<ul>
+					<li><a href="three-column.html">Desktop</a></li>
+					<li><a href="one-column.html">Furniture</a></li>
+					<li><a href="text.html">Bike</a></li>
+				</ul>
+			</li>
+                        
+                    </ul>
+                </li>
+                
+               
+
+		
+               
+                <li>
+			<h4>Blog</h4>
+			<ul class="newslist">
+				
+					    
+        
+            <div >
+            {% block content %}
+
+            {% endblock %}
+            </div>
+        
+    
+			                
+            
+				
+
+
+			</ul>
+                </li>
+	
+   		
+                
+            </ul>
+		
+        </aside>
+    	<div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-content width">
+            <ul>
+            	<li><h4>Electronics</h4></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Desktop</a></li>
+                <li><a href="#">Tablet </a></li>
+              
+            </ul>
+            
+            <ul>
+            	<li><h4>Furniture</h4></li>
+                <li><a href="#">Bed</a></li>
+                <li><a href="#">Chair & Table</a></li>
+                <li><a href="#">Chofa</a></li>
+       
+            </ul>
+
+ 	    <ul>
+                <li><h4>Property</h4></li>
+                <li><a href="#">Bike </a></li>
+                <li><a href="#">ByCycle</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Car</a></li>
+                <li><a href="#">Truck</a></li>
+            </ul>
+            
+            <ul class="endfooter">
+            	<li><h4>Job Site</h4></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Government</a></li>
+                <li><a href="#">NGO</a></li>
+                <li><a href="#">Private Firm </a></li>
+            </ul>
+            
+            <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; YourSite 2017.<a href="http://zypopwebtemplates.com/">All right resurved by</a> Jiku | Akram</p>
+         </div>
+    </footer>
+</div>
+
+
+
+
+
+<div >
+    		{% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}" > <span >new</span></a>
+                <a href="{% url 'post_draft_list' %}" ><span >draft</span></a>
+                <p > <small><a href="{% url 'logout' %}"><p >Log out</p></a></small></p>
+            {% else %}
+                <a href="{% url 'login' %}" ><span >login</span></a>
+            {% endif %}
+
+        </div>
+</body>
+</html>
+
+	<!-- Dynamic Section-->
+
+
+
+
+<!--End my code My Code Hear-->
+
